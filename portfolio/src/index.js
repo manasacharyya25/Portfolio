@@ -10,7 +10,7 @@ function Banner() {
     <section className='banner'>
       <span className="banner-head">
         <div className='banner-image'>
-          <img src='https://media-exp1.licdn.com/dms/image/C5103AQHifPVvdvOtxA/profile-displayphoto-shrink_400_400/0/1558908973129?e=1623888000&v=beta&t=ou9_e0IUFeUAk7zKOBT-CsJNBtq5LIE4F03v-kVRA4o' ></img>
+          <img src='https://media-exp1.licdn.com/dms/image/C5103AQHifPVvdvOtxA/profile-displayphoto-shrink_400_400/0/1558908973129?e=1623888000&v=beta&t=ou9_e0IUFeUAk7zKOBT-CsJNBtq5LIE4F03v-kVRA4o' alt='profile'></img>
         </div>
         <div className="banner-title">
           <h1>Manas Pratim Acharyya</h1>
@@ -41,7 +41,7 @@ function Banner() {
 const Links = ({ link, img }) => {
   return (
     <div className='links'>
-      <img src={img} />
+      <img src={img} alt={img} />
       <a href={link}>{link}</a>
     </div>
   )
