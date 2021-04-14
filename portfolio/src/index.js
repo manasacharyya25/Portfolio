@@ -6,6 +6,8 @@ import { Banner } from './components/banner/banner';
 import { Skill } from './components/skill/skill';
 import { Summary } from './components/summary/summary'
 
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css'
 
 function Home() {
@@ -15,7 +17,7 @@ function Home() {
                 <Banner />
             </div>
             <div className="body-container">
-                <Summary className="summary" />
+                <Summary />
                 <Skill />
             </div>
         </div>
