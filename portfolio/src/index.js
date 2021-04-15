@@ -9,6 +9,7 @@ import { Summary } from './components/summary/summary'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css'
+import { TriedItOnce } from './components/trieditonce/trieditonce';
 
 function Home() {
     return (
@@ -20,6 +21,7 @@ function Home() {
                 <Summary />
                 <Skills />
             </div>
+            <TriedItOnce />
         </div>
     )
 }

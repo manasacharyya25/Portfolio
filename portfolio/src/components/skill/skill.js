@@ -39,6 +39,7 @@ function Skill({ technology, rating, projects }) {
                                 <Card.Title className="SkillsProjectName">{project.name}</Card.Title>
                                 <Card.Text className="SkillsProjectDesc">
                                     {project.desc}
+
                                     {project.url ?
                                         <span className="SkillsProjectUrlSvg">
                                             <a href={project.url} target='__blank'>
