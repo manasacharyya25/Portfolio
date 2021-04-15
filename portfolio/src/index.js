@@ -3,7 +3,7 @@ import React from 'react';
 import ReactDom from 'react-dom'
 
 import { Banner } from './components/banner/banner';
-import { Skill } from './components/skill/skill';
+import { Skills } from './components/skill/skill';
 import { Summary } from './components/summary/summary'
 
 
@@ -18,7 +18,7 @@ function Home() {
             </div>
             <div className="body-container">
                 <Summary />
-                <Skill />
+                <Skills />
             </div>
         </div>
     )

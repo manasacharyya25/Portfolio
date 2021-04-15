@@ -1,0 +1,18 @@
+.SkillsProjectName {
+    font-family: 'Quicksand';
+    font-size: medium;
+}
+
+.SkillsProjectDesc {
+    font-family: 'Quicksand';
+    font-size: small;
+}
+
+#skillsProjectUrlSvg {
+    padding-left: 0.5rem;
+    opacity: 0.5;
+}
+
+#skillsProjectUrlSvg:hover {
+    opacity: 1 
+}

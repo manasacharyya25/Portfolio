@@ -19,7 +19,7 @@ a, a:hover, a:focus, a:active {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-self: center;
     max-width: 90%;
 }
