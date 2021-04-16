@@ -8,7 +8,7 @@ import './trieditonce.css'
 export function TriedItOnce() {
     return (
         <div className="TriedItOnce">
-            <h1>Tried It Once !!!</h1>
+            <h1 style={{ fontFamily: 'Quicksand' }}>Tried It Once !!!</h1>
             <Carousel fade interval='3000' pause='hover' wrap='true'>
                 <Carousel.Item >
                     <Container>

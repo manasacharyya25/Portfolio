@@ -1,6 +1,5 @@
 
 import React from 'react';
-// import 'bootstrap/dist/css/bootstrap.min.css';
 import Card from 'react-bootstrap/Card'
 import Accordion from 'react-bootstrap/Accordion'
 import Button from 'react-bootstrap/Button'
@@ -63,7 +62,7 @@ export function Skills() {
     return (
 
         <div>
-            <h1>Skills</h1>
+            <h1 style={{ fontFamily: 'Quicksand' }}>Skills</h1>
             <Accordion>
                 <Skill technology="Java"
                     rating="80"
