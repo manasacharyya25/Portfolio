@@ -5,20 +5,3 @@
     max-width: 90%;
     margin-top: 4%;
 }
-.carousel-indicators {
-    display: none;
-}
-
-.carousel-inner {
-    box-shadow: 0px 0px 10px -2px rgb(136, 136, 136);
-    padding: 2rem;
-    border-radius: 1rem 3rem;
-}
-
-.carousel-control-prev-icon, .carousel-control-next-icon {
-    display: none;
-}
-
-.col {
-    margin-left: 5rem;
-}
