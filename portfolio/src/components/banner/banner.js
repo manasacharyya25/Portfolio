@@ -17,17 +17,19 @@ export function Banner() {
       </span>
       <section className='banner-links'>
         <Links
-          link='manas.acharyya.nits.cse18@gmail.com'
+          displayUrl='manas.acharyya.nits.cse18@gmail.com'
           img='./assets/gmail.png' />
 
-        <Links link='+91 7896 227982' img='./assets/contact.png' />
+        <Links displayUrl='+91 7896 227982' img='./assets/contact.png' />
 
         <Links
-          link='linkedin.com/in/manasacharyya25'
+          link='https://linkedin.com/in/manasacharyya25'
+          displayUrl='linkedin.com/in/manasacharyya25'
           img='./assets/linkedin.png' />
 
         <Links
-          link='github.com/manasacharyya25'
+          link='https://github.com/manasacharyya25'
+          displayUrl='github.com/manasacharyya25'
           img='/assets/github.png' />
 
         <Links />
@@ -37,11 +39,11 @@ export function Banner() {
   )
 }
 
-const Links = ({ link, img }) => {
+const Links = ({ link, displayUrl, img }) => {
   return (
     <div className='links'>
       <img src={img} alt={img} />
-      <a href={link}>{link}</a>
+      <a href={link} target='__blank'>{displayUrl}</a>
     </div>
   )
 }

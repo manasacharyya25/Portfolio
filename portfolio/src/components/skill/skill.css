@@ -3,6 +3,10 @@
     font-size: medium;
 }
 
+.card {
+    width: 25rem;
+}
+
 .SkillsProjectDesc {
     font-family: 'Quicksand';
     font-size: small;
@@ -15,4 +19,14 @@
 
 #skillsProjectUrlSvg:hover {
     opacity: 1 
+}
+
+@media(max-width: 768px) {
+    .Skills {
+        margin-top: 2rem;
+        width: 70%;
+    }
+    .card {
+        width: inherit;
+    }
 }

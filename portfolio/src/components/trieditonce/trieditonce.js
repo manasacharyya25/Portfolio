@@ -7,7 +7,7 @@ import './trieditonce.css'
 export function TriedItOnce() {
     return (
         <div className="TriedItOnce">
-            <h1 style={{ fontFamily: 'Quicksand', marginBottom: '2rem' }}>Tried It Once !!!</h1>
+            <h1 style={{ fontFamily: 'Quicksand', marginBottom: '2rem', fontWeight: '900' }}>Tried It Once !!!</h1>
             <Carousel
                 additionalTransfrom={0}
                 arrows

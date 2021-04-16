@@ -20,17 +20,17 @@ var SomedmanProj = {
 
 const javaProjs = [SocialSignInProj, SomedmanProj]
 
-function Skill({ technology, rating, projects }) {
+function Skill({ technology, rating, projects, eventKey }) {
     return (
-        <Card border="danger" style={{ width: '18rem' }}>
+        <Card border="danger">
             <Card.Header style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                <Accordion.Toggle as={Button} variant="button" eventKey="0">
+                <Accordion.Toggle as={Button} variant="button" eventKey={eventKey}>
                     {technology}
                     <img src='./assets/caret-down-solid.svg' height='10px' alt='details' style={{ paddingLeft: '0.5rem' }} />
                 </Accordion.Toggle>
                 <ProgressBar now={rating} label='4/5' style={{ minWidth: '60%' }} />
             </Card.Header>
-            <Accordion.Collapse eventKey="0">
+            <Accordion.Collapse eventKey={eventKey}>
                 <Card.Body>
                     {
                         projects.map(project => (
@@ -61,37 +61,17 @@ function Skill({ technology, rating, projects }) {
 export function Skills() {
     return (
 
-        <div>
-            <h1 style={{ fontFamily: 'Quicksand' }}>Skills</h1>
+        <div className='Skills'>
+            <h1 style={{ fontFamily: 'Quicksand', fontWeight: '900' }}>Skills</h1>
             <Accordion>
                 <Skill technology="Java"
                     rating="80"
-                    projects={javaProjs} />
-
-                <Card border="danger" style={{ width: '18rem' }}>
-                    <Card.Header style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                        <Accordion.Toggle as={Button} variant="button" eventKey="1">
-                            Angular
-                            <img src='./assets/caret-down-solid.svg' height='10px' alt='details' style={{ paddingLeft: '0.5rem' }} />
-                        </Accordion.Toggle>
-                        <ProgressBar now={60} label='3/5' style={{ minWidth: '60%' }} />
-                    </Card.Header>
-                    <Accordion.Collapse eventKey="1">
-                        <Card.Body>
-                            <Card.Title>Danger Card Title</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk
-                                of the card's content.
-                            </Card.Text>
-                            <Card.Title>Danger Card Title</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk
-                                of the card's content.
-                            </Card.Text>
-                        </Card.Body>
-                    </Accordion.Collapse>
-                </Card>
-
+                    projects={javaProjs}
+                    eventKey='1' />
+                <Skill technology="Angular 2+"
+                    rating="60"
+                    projects={javaProjs}
+                    eventKey='2' />
             </Accordion>
         </div>
 

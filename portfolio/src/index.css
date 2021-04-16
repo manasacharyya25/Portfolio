@@ -22,3 +22,35 @@ a, a:hover, a:focus, a:active {
     flex-wrap: nowrap;
     max-width: 90%;
 }
+
+@media(max-width: 1440px) {
+    html {
+        font-size: 80%;
+    }
+}
+
+@media(max-width: 1024px) {
+    html {
+        font-size: 60%;
+    }
+}
+
+@media(max-width: 768px) {
+    html {
+        font-size: 60%;
+    }
+
+    .body-container {
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width: 430px) {
+    html {
+        font-size: 50%;
+    }
+
+    input {
+        width: 70%;
+    }
+}
