@@ -10,7 +10,7 @@ import './skill.css'
 var SocialSignInBackend = {
     "name": "Social Sign In With JWT Authentication",
     "desc": "Spring Boot + Angular Project, where user can sign in using Gmail, and is returned with a JWT Token",
-    "url": "https://github.com/manasacharyya25/SocialSignInWithJwtAuthentication/tree/main/spring-boot-backend/SSIwithJWT"
+    "url": "https://github.com/manasacharyya25/SocialSignInWithJwtAuthentication"
 }
 
 var SomedmanBackend = {
@@ -40,7 +40,7 @@ var SomedmanFrontend = {
 var SocialSignInFrontend = {
     "name": "Social Sign In With JWT Authentication",
     "desc": "Spring Boot + Angular Project, where user can sign in using Gmail, and is returned with a JWT Token",
-    "url": "https://github.com/manasacharyya25/SocialSignInWithJwtAuthentication/tree/main/angular-frontend/frontend-app"
+    "url": "https://github.com/manasacharyya25/SocialSignInWithJwtAuthentication"
 }
 
 var PatientContextView = {
@@ -84,7 +84,7 @@ var cloudFoundryProj = {
 var portfolio = {
     "name": "Portfolio",
     "desc": "Interactive Portfolio Website, developed with React",
-    "url": "https://github.com/manasacharyya25/Portfolio/tree/main/portfolio"
+    "url": "https://github.com/manasacharyya25/Portfolio/"
 }
 
 const javaProjs = [SocialSignInBackend, SomedmanBackend, SpringSecurityWithJWT, FileTransfer]

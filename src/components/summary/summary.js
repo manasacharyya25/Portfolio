@@ -29,7 +29,7 @@ export function Summary() {
                 <SummaryItem heading="Profile"
                     body={
                         <div>
-                            Passionate <strong>Software Engineer</strong> with <strong>3+ Years</strong>
+                            Passionate <strong>Software Engineer</strong> with <strong>3+ Years </strong>
                             of Professional Experience in an <strong>Agile Team</strong>,
                             developing Modularized, Bug-Free, Quality Code, for <strong>Healthcare Domain Products</strong>.
                             Seeking to levarage proven coding and problem-solving skills to provide value
@@ -87,11 +87,11 @@ export function Summary() {
 
                                 <ul style={{ marginLeft: '5rem' }}>
                                     <li>
-                                        Worked on <strong>SCADA</strong> Technology.
+                                        Worked on <strong>SCADA</strong> (Supervisory Control and Data Acquisition) Software System.
                                     </li>
 
                                     <li>
-                                        Developed Load Balancer using Sockets in C.
+                                        Developed Fault Tolerant Master/Slave Architecture for CPU of a SCADA System, using Socket Programming in Java.
                                     </li>
                                 </ul>
                             </div>
@@ -102,7 +102,7 @@ export function Summary() {
                     body={
                         <>
                             <div>
-                                <h3>Social Media Manager</h3>
+                                <h3>Social Media Manager<span><a href="https://somedman.com" target="_blank"><img src='./assets/link-solid.svg' height='10px' alt='details' style={{ paddingLeft: '0.5rem' }} /></a></span></h3>
                                 <h5>December 2020 - Present</h5>
 
                                 <p><i>Webapp that provides its users with a single stop, to acess and manage all their social platforms.</i></p>
@@ -144,7 +144,7 @@ export function Summary() {
                 <SummaryItem heading="Education"
                     body={
                         <div>
-                            <h3>National Institute of Technology, Silchar</h3>
+                            <h3>National Institute of Technology, Silchar<span><a href="http://nits.ac.in/" target="_blank"><img src='./assets/link-solid.svg' height='10px' alt='details' style={{ paddingLeft: '0.5rem' }} /></a></span></h3>
                             <h4>Bachelor of Technology, Computer Science and Engineering</h4>
                             <h5>April 2014 - May 2018</h5>
                         </div>
