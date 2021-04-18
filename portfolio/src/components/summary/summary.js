@@ -1,7 +1,6 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card'
 import Accordion from 'react-bootstrap/Accordion'
-import Button from 'react-bootstrap/Button'
 
 import './summary.css'
 
@@ -28,8 +27,6 @@ export function Summary() {
         <div className="summary">
             <Accordion defaultActiveKey='0'>
                 <SummaryItem heading="Profile"
-                    // body={["Passionate ", <strong>Software Engineer</strong>, " with ", <strong>3+ Years</strong>, " of Professional Experience in an ",
-                    //     <strong>Agile Team</strong>, ", developing Modularized, Bug-Free, Quality Code, for Healthcare Domain Products. Seeking to levarage proven coding and problem-solving skills to provide value in your Organization."]}
                     body={
                         <div>
                             Passionate <strong>Software Engineer</strong> with <strong>3+ Years</strong>

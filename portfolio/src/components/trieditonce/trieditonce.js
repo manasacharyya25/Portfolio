@@ -64,14 +64,8 @@ export function TriedItOnce() {
                 </div>
                 <div>
                     <img
-                        src="./assets/figma.png"
-                        alt="figma"
-                        height="60rem" />
-                </div>
-                <div>
-                    <img
-                        src="./assets/application-insights.png"
-                        alt="Azure Application Insights"
+                        src="./assets/spark.png"
+                        alt="Apache Spark"
                         height="60rem"
                     />
                 </div>
@@ -84,18 +78,28 @@ export function TriedItOnce() {
                 </div>
                 <div>
                     <img
+                        src="./assets/application-insights.png"
+                        alt="Azure Application Insights"
+                        height="60rem"
+                    />
+                </div>
+
+                <div>
+                    <img
+                        src="./assets/heroku.jpg"
+                        alt="Heroku"
+                        height="60rem"
+                    />
+                </div>
+
+                <div>
+                    <img
                         src="./assets/php.svg"
                         alt="PHP"
                         height="60rem"
                     />
                 </div>
-                <div>
-                    <img
-                        src="./assets/spark.png"
-                        alt="Apache Spark"
-                        height="60rem"
-                    />
-                </div>
+
                 <div>
                     <img
                         src="./assets/superset.png"
@@ -109,6 +113,27 @@ export function TriedItOnce() {
                         alt="FHIR"
                         height="60rem"
                     />
+                </div>
+
+                <div>
+                    <img
+                        src="./assets/netlify.png"
+                        alt="Netlify"
+                        height="60rem"
+                    />
+                </div>
+                <div>
+                    <img
+                        src="./assets/SignalR.png"
+                        alt="SignalR"
+                        height="60rem"
+                    />
+                </div>
+                <div>
+                    <img
+                        src="./assets/figma.png"
+                        alt="figma"
+                        height="60rem" />
                 </div>
             </Carousel>
         </div>
